@@ -1,0 +1,101 @@
+==================================================================================
+Tidied Dataset of Human Activity Recognition Using Smartphones Dataset Version 1.0
+==================================================================================
+Jeremy Verbit
+==================================================================================
+
+
+##################
+## Study Design ##
+##################
+Data was collected from the data source described below, accessible at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ 
+==================================================================
+Human Activity Recognition Using Smartphones Dataset
+Version 1.0
+==================================================================
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+==================================================================
+
+The study design for the experiment itself (and not the tidying of the data) can be found in UCI HAR Dataset/README.txt
+
+This data was then stripped down to its means and standard deviations for each activity_name / subject_id combination and the mean was taken for
+each remaining measurement by activity_name / subject_id.
+
+
+###############
+## Code Book ##
+###############
+activity_name	Factor	Represents activity performed during measurement
+subject_id	int	Represents subject who performed the activity during measurement
+tBodyAcc-mean()-X	num	Represents mean of tBodyAcc-mean()-X in Human Activity Recognition Using Smartphones Dataset
+tBodyAcc-mean()-Y	num	Represents mean of tBodyAcc-mean()-Y in Human Activity Recognition Using Smartphones Dataset
+tBodyAcc-mean()-Z	num	Represents mean of tBodyAcc-mean()-Z in Human Activity Recognition Using Smartphones Dataset
+tBodyAcc-std()-X	num	Represents mean of tBodyAcc-std()-X in Human Activity Recognition Using Smartphones Dataset
+tBodyAcc-std()-Y	num	Represents mean of tBodyAcc-std()-Y in Human Activity Recognition Using Smartphones Dataset
+tBodyAcc-std()-Z	num	Represents mean of tBodyAcc-std()-Z in Human Activity Recognition Using Smartphones Dataset
+tGravityAcc-mean()-X	num	Represents mean of tGravityAcc-mean()-X in Human Activity Recognition Using Smartphones Dataset
+tGravityAcc-mean()-Y	num	Represents mean of tGravityAcc-mean()-Y in Human Activity Recognition Using Smartphones Dataset
+tGravityAcc-mean()-Z	num	Represents mean of tGravityAcc-mean()-Z in Human Activity Recognition Using Smartphones Dataset
+tGravityAcc-std()-X	num	Represents mean of tGravityAcc-std()-X in Human Activity Recognition Using Smartphones Dataset
+tGravityAcc-std()-Y	num	Represents mean of tGravityAcc-std()-Y in Human Activity Recognition Using Smartphones Dataset
+tGravityAcc-std()-Z	num	Represents mean of tGravityAcc-std()-Z in Human Activity Recognition Using Smartphones Dataset
+tBodyAccJerk-mean()-X	num	Represents mean of tBodyAccJerk-mean()-X in Human Activity Recognition Using Smartphones Dataset
+tBodyAccJerk-mean()-Y	num	Represents mean of tBodyAccJerk-mean()-Y in Human Activity Recognition Using Smartphones Dataset
+tBodyAccJerk-mean()-Z	num	Represents mean of tBodyAccJerk-mean()-Z in Human Activity Recognition Using Smartphones Dataset
+tBodyAccJerk-std()-X	num	Represents mean of tBodyAccJerk-std()-X in Human Activity Recognition Using Smartphones Dataset
+tBodyAccJerk-std()-Y	num	Represents mean of tBodyAccJerk-std()-Y in Human Activity Recognition Using Smartphones Dataset
+tBodyAccJerk-std()-Z	num	Represents mean of tBodyAccJerk-std()-Z in Human Activity Recognition Using Smartphones Dataset
+tBodyGyro-mean()-X	num	Represents mean of tBodyGyro-mean()-X in Human Activity Recognition Using Smartphones Dataset
+tBodyGyro-mean()-Y	num	Represents mean of tBodyGyro-mean()-Y in Human Activity Recognition Using Smartphones Dataset
+tBodyGyro-mean()-Z	num	Represents mean of tBodyGyro-mean()-Z in Human Activity Recognition Using Smartphones Dataset
+tBodyGyro-std()-X	num	Represents mean of tBodyGyro-std()-X in Human Activity Recognition Using Smartphones Dataset
+tBodyGyro-std()-Y	num	Represents mean of tBodyGyro-std()-Y in Human Activity Recognition Using Smartphones Dataset
+tBodyGyro-std()-Z	num	Represents mean of tBodyGyro-std()-Z in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroJerk-mean()-X	num	Represents mean of tBodyGyroJerk-mean()-X in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroJerk-mean()-Y	num	Represents mean of tBodyGyroJerk-mean()-Y in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroJerk-mean()-Z	num	Represents mean of tBodyGyroJerk-mean()-Z in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroJerk-std()-X	num	Represents mean of tBodyGyroJerk-std()-X in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroJerk-std()-Y	num	Represents mean of tBodyGyroJerk-std()-Y in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroJerk-std()-Z	num	Represents mean of tBodyGyroJerk-std()-Z in Human Activity Recognition Using Smartphones Dataset
+tBodyAccMag-mean()	num	Represents mean of tBodyAccMag-mean() in Human Activity Recognition Using Smartphones Dataset
+tBodyAccMag-std()	num	Represents mean of tBodyAccMag-std() in Human Activity Recognition Using Smartphones Dataset
+tGravityAccMag-mean()	num	Represents mean of tGravityAccMag-mean() in Human Activity Recognition Using Smartphones Dataset
+tGravityAccMag-std()	num	Represents mean of tGravityAccMag-std() in Human Activity Recognition Using Smartphones Dataset
+tBodyAccJerkMag-mean()	num	Represents mean of tBodyAccJerkMag-mean() in Human Activity Recognition Using Smartphones Dataset
+tBodyAccJerkMag-std()	num	Represents mean of tBodyAccJerkMag-std() in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroMag-mean()	num	Represents mean of tBodyGyroMag-mean() in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroMag-std()	num	Represents mean of tBodyGyroMag-std() in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroJerkMag-mean()	num	Represents mean of tBodyGyroJerkMag-mean() in Human Activity Recognition Using Smartphones Dataset
+tBodyGyroJerkMag-std()	num	Represents mean of tBodyGyroJerkMag-std() in Human Activity Recognition Using Smartphones Dataset
+fBodyAcc-mean()-X	num	Represents mean of fBodyAcc-mean()-X in Human Activity Recognition Using Smartphones Dataset
+fBodyAcc-mean()-Y	num	Represents mean of fBodyAcc-mean()-Y in Human Activity Recognition Using Smartphones Dataset
+fBodyAcc-mean()-Z	num	Represents mean of fBodyAcc-mean()-Z in Human Activity Recognition Using Smartphones Dataset
+fBodyAcc-std()-X	num	Represents mean of fBodyAcc-std()-X in Human Activity Recognition Using Smartphones Dataset
+fBodyAcc-std()-Y	num	Represents mean of fBodyAcc-std()-Y in Human Activity Recognition Using Smartphones Dataset
+fBodyAcc-std()-Z	num	Represents mean of fBodyAcc-std()-Z in Human Activity Recognition Using Smartphones Dataset
+fBodyAccJerk-mean()-X	num	Represents mean of fBodyAccJerk-mean()-X in Human Activity Recognition Using Smartphones Dataset
+fBodyAccJerk-mean()-Y	num	Represents mean of fBodyAccJerk-mean()-Y in Human Activity Recognition Using Smartphones Dataset
+fBodyAccJerk-mean()-Z	num	Represents mean of fBodyAccJerk-mean()-Z in Human Activity Recognition Using Smartphones Dataset
+fBodyAccJerk-std()-X	num	Represents mean of fBodyAccJerk-std()-X in Human Activity Recognition Using Smartphones Dataset
+fBodyAccJerk-std()-Y	num	Represents mean of fBodyAccJerk-std()-Y in Human Activity Recognition Using Smartphones Dataset
+fBodyAccJerk-std()-Z	num	Represents mean of fBodyAccJerk-std()-Z in Human Activity Recognition Using Smartphones Dataset
+fBodyGyro-mean()-X	num	Represents mean of fBodyGyro-mean()-X in Human Activity Recognition Using Smartphones Dataset
+fBodyGyro-mean()-Y	num	Represents mean of fBodyGyro-mean()-Y in Human Activity Recognition Using Smartphones Dataset
+fBodyGyro-mean()-Z	num	Represents mean of fBodyGyro-mean()-Z in Human Activity Recognition Using Smartphones Dataset
+fBodyGyro-std()-X	num	Represents mean of fBodyGyro-std()-X in Human Activity Recognition Using Smartphones Dataset
+fBodyGyro-std()-Y	num	Represents mean of fBodyGyro-std()-Y in Human Activity Recognition Using Smartphones Dataset
+fBodyGyro-std()-Z	num	Represents mean of fBodyGyro-std()-Z in Human Activity Recognition Using Smartphones Dataset
+fBodyAccMag-mean()	num	Represents mean of fBodyAccMag-mean() in Human Activity Recognition Using Smartphones Dataset
+fBodyAccMag-std()	num	Represents mean of fBodyAccMag-std() in Human Activity Recognition Using Smartphones Dataset
+fBodyBodyAccJerkMag-mean()	num	Represents mean of fBodyBodyAccJerkMag-mean() in Human Activity Recognition Using Smartphones Dataset
+fBodyBodyAccJerkMag-std()	num	Represents mean of fBodyBodyAccJerkMag-std() in Human Activity Recognition Using Smartphones Dataset
+fBodyBodyGyroMag-mean()	num	Represents mean of fBodyBodyGyroMag-mean() in Human Activity Recognition Using Smartphones Dataset
+fBodyBodyGyroMag-std()	num	Represents mean of fBodyBodyGyroMag-std() in Human Activity Recognition Using Smartphones Dataset
+fBodyBodyGyroJerkMag-mean()	num	Represents mean of fBodyBodyGyroJerkMag-mean() in Human Activity Recognition Using Smartphones Dataset
+fBodyBodyGyroJerkMag-std()	num	Represents mean of fBodyBodyGyroJerkMag-std() in Human Activity Recognition Using Smartphones Dataset
